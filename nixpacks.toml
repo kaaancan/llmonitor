@@ -3,6 +3,3 @@
 
 [phases.install]
 cmds = ['npm install clean']
-
-[start]
-cmd = 'yarn run server:start'
