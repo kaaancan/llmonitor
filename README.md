@@ -2,7 +2,7 @@
 
 # 📈 lunary
 
-**Open-source observability & prompt platform for AI developers**
+**Open-source observability & prompt platform for LLMs**
 
 [website](https://lunary.ai) - [docs](https://lunary.ai/docs) - [self host](https://lunary.ai/docs/self-host)
 
@@ -25,7 +25,7 @@ It also designed to be:
 
 - 🤖 Usable with any model, not just OpenAI
 - 📦 Easy to integrate (2 minutes)
-- 🧑‍💻 Simple to self-host (deploy to Vercel & Supabase)
+- 🧑‍💻 Simple to self-host
 
 ## Demo
 
@@ -60,13 +60,29 @@ With the hosted version:
 - 🙋 get priority 1:1 support with our team
 - 🇪🇺 your data is stored safely in Europe
 
+## Running locally
+
+Lunary is powered by Node.js.
+
+To run it locally, you'll need access to a Postgres database to set as the `DATABASE_URL` in your `.env` file.
+
+```bash
+# Clone the repository
+git clone https://github.com/lunary-ai/lunary
+
+# Copy env variables
+cp .env.example .env
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
 ## 🙋 Support
 
-Need help or have questions? Chat with us on [the website](https://lunary.ai) or email one of the founders: [vince [at] lunary.ai](mailto:vince@lunary.ai). We're here to support you every step of the way.
-
-## 👨‍👩‍👧 Team
-
-Made by [@vincelwt](https://twitter.com/vincelwt) and [Hugh](https://github.com/hughcrt).
+Need help or have questions? Chat with us on [the website](https://lunary.ai) or email us: [hello [at] lunary.ai](mailto:hello@lunary.ai). We're here to support you every step of the way.
 
 ## License
 
