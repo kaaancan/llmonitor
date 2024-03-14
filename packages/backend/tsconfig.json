@@ -2,7 +2,7 @@
   "compilerOptions": {
     "lib": ["ESNext"],
     "module": "esnext",
-    "target": "ESNext",
+    "target": "esnext",
     "moduleResolution": "bundler",
     "moduleDetection": "force",
     "allowImportingTsExtensions": true,
@@ -14,13 +14,6 @@
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "allowJs": true,
-    "baseUrl": ".",
-    "rootDir": "src",
-    "paths": {
-      "@/*": ["./*"],
-      "@/utils/*": ["src/utils/*"],
-      "@/checks/*": ["src/checks/*"],
-    },
-  },
+    "allowJs": true
+  }
 }
